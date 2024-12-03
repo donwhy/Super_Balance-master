@@ -14,3 +14,4 @@
 .\objects\tasks.o: ..\FreeRTOS\source\include\list.h
 .\objects\tasks.o: ..\FreeRTOS\source\include\timers.h
 .\objects\tasks.o: ..\FreeRTOS\source\include\stack_macros.h
+.\objects\tasks.o: F:\Keil_v5\ARM\ARMCompiler_506\Bin\..\include\stdio.h
