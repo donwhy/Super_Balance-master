@@ -3,6 +3,7 @@
 ".\objects\at32f403a_407_clock.o"
 ".\objects\at32f403a_407_int.o"
 ".\objects\system_at32f403a_407.o"
+".\objects\include_port.o"
 ".\objects\startup_at32f403a_407.o"
 ".\objects\at32f403a_407_gpio.o"
 ".\objects\at32f403a_407_crm.o"
@@ -41,6 +42,14 @@
 ".\objects\usbd_sdr.o"
 ".\objects\cdc_class.o"
 ".\objects\cdc_desc.o"
+".\objects\croutine.o"
+".\objects\event_groups.o"
+".\objects\list.o"
+".\objects\queue.o"
+".\objects\stream_buffer.o"
+".\objects\tasks.o"
+".\objects\timers.o"
+".\objects\heap_4.o"
 --strict --scatter ".\Objects\AT32F403A.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

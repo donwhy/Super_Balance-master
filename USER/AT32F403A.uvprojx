@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>AT32F403AVGT7,USE_STDPERIPH_DRIVER,AT_START_F403A_V1,HEXT_VALUE=25000000</Define>
               <Undefine></Undefine>
-              <IncludePath>..\AT32F403A_StdPeriph_Driver\inc;..\AT32F403A_StdPeriph_Driver\src;..\cmsis\core_support;..\cmsis\device_support;..\SYSTEM\delay;..\USER;..\UserFile;..\usbd_drivers\inc;..\usbd_drivers\src;..\usbd_class\cdc</IncludePath>
+              <IncludePath>..\AT32F403A_StdPeriph_Driver\inc;..\AT32F403A_StdPeriph_Driver\src;..\cmsis\core_support;..\cmsis\device_support;..\SYSTEM\delay;..\USER;..\UserFile;..\usbd_drivers\inc;..\usbd_drivers\src;..\usbd_class\cdc;..\FreeRTOS;..\FreeRTOS\source;..\FreeRTOS\source\portable\memmang;..\FreeRTOS\source\include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -408,6 +408,11 @@
               <FileName>system_at32f403a_407.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\cmsis\device_support\system_at32f403a_407.c</FilePath>
+            </File>
+            <File>
+              <FileName>include_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\include_port.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -633,6 +638,51 @@
               <FileName>readme.md</FileName>
               <FileType>5</FileType>
               <FilePath>..\readme.md</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>FreeRTOS</GroupName>
+          <Files>
+            <File>
+              <FileName>croutine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FreeRTOS\source\croutine.c</FilePath>
+            </File>
+            <File>
+              <FileName>event_groups.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FreeRTOS\source\event_groups.c</FilePath>
+            </File>
+            <File>
+              <FileName>list.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FreeRTOS\source\list.c</FilePath>
+            </File>
+            <File>
+              <FileName>queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FreeRTOS\source\queue.c</FilePath>
+            </File>
+            <File>
+              <FileName>stream_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FreeRTOS\source\stream_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>tasks.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FreeRTOS\source\tasks.c</FilePath>
+            </File>
+            <File>
+              <FileName>timers.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FreeRTOS\source\timers.c</FilePath>
+            </File>
+            <File>
+              <FileName>heap_4.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FreeRTOS\source\portable\memmang\heap_4.c</FilePath>
             </File>
           </Files>
         </Group>
