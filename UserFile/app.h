@@ -42,6 +42,10 @@
 
 #include "usb.h"
 
+#include "FreeRTOS.h"
+#include "task.h"
+#include "FreeRTOS_demo.h"
+
 void Peripherals_Init(void);
 
 #endif

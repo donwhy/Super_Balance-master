@@ -71,3 +71,14 @@
 .\objects\app.o: ..\usbd_class\cdc\cdc_class.h
 .\objects\app.o: ..\usbd_drivers\inc\usbd_int.h
 .\objects\app.o: ..\UserFile\usb.h
+.\objects\app.o: ..\FreeRTOS\source\include\FreeRTOS.h
+.\objects\app.o: F:\Keil_v5\ARM\ARMCompiler_506\Bin\..\include\stddef.h
+.\objects\app.o: ..\USER\FreeRTOSConfig.h
+.\objects\app.o: ..\FreeRTOS\source\include\projdefs.h
+.\objects\app.o: ..\FreeRTOS\source\include\portable.h
+.\objects\app.o: ..\FreeRTOS\source\include\deprecated_definitions.h
+.\objects\app.o: ..\FreeRTOS\source\include\..\..\..\FreeRTOS\source\portable\rvds\ARM_CM4F\portmacro.h
+.\objects\app.o: ..\FreeRTOS\source\include\mpu_wrappers.h
+.\objects\app.o: ..\FreeRTOS\source\include\task.h
+.\objects\app.o: ..\FreeRTOS\source\include\list.h
+.\objects\app.o: ..\USER\FreeRTOS_demo.h
