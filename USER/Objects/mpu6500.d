@@ -72,3 +72,14 @@
 .\objects\mpu6500.o: ..\usbd_class\cdc\cdc_class.h
 .\objects\mpu6500.o: ..\usbd_drivers\inc\usbd_int.h
 .\objects\mpu6500.o: ..\UserFile\usb.h
+.\objects\mpu6500.o: ..\FreeRTOS\source\include\FreeRTOS.h
+.\objects\mpu6500.o: F:\Keil_v5\ARM\ARMCompiler_506\Bin\..\include\stddef.h
+.\objects\mpu6500.o: ..\USER\FreeRTOSConfig.h
+.\objects\mpu6500.o: ..\FreeRTOS\source\include\projdefs.h
+.\objects\mpu6500.o: ..\FreeRTOS\source\include\portable.h
+.\objects\mpu6500.o: ..\FreeRTOS\source\include\deprecated_definitions.h
+.\objects\mpu6500.o: ..\FreeRTOS\source\include\..\..\..\FreeRTOS\source\portable\rvds\ARM_CM4F\portmacro.h
+.\objects\mpu6500.o: ..\FreeRTOS\source\include\mpu_wrappers.h
+.\objects\mpu6500.o: ..\FreeRTOS\source\include\task.h
+.\objects\mpu6500.o: ..\FreeRTOS\source\include\list.h
+.\objects\mpu6500.o: ..\USER\FreeRTOS_demo.h

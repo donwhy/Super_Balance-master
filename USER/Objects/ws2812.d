@@ -71,3 +71,14 @@
 .\objects\ws2812.o: ..\usbd_class\cdc\cdc_class.h
 .\objects\ws2812.o: ..\usbd_drivers\inc\usbd_int.h
 .\objects\ws2812.o: ..\UserFile\usb.h
+.\objects\ws2812.o: ..\FreeRTOS\source\include\FreeRTOS.h
+.\objects\ws2812.o: F:\Keil_v5\ARM\ARMCompiler_506\Bin\..\include\stddef.h
+.\objects\ws2812.o: ..\USER\FreeRTOSConfig.h
+.\objects\ws2812.o: ..\FreeRTOS\source\include\projdefs.h
+.\objects\ws2812.o: ..\FreeRTOS\source\include\portable.h
+.\objects\ws2812.o: ..\FreeRTOS\source\include\deprecated_definitions.h
+.\objects\ws2812.o: ..\FreeRTOS\source\include\..\..\..\FreeRTOS\source\portable\rvds\ARM_CM4F\portmacro.h
+.\objects\ws2812.o: ..\FreeRTOS\source\include\mpu_wrappers.h
+.\objects\ws2812.o: ..\FreeRTOS\source\include\task.h
+.\objects\ws2812.o: ..\FreeRTOS\source\include\list.h
+.\objects\ws2812.o: ..\USER\FreeRTOS_demo.h

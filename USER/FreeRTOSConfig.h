@@ -109,15 +109,20 @@
  *
  * See http://www.freertos.org/a00110.html.
  *----------------------------------------------------------*/
-#define configUSE_PREEMPTION		1
+ /* 基础配置项 */
+#define configUSE_PREEMPTION													  1                       /* 1: 抢占式调度器, 0: 协程式调度器, 无默认需定义 */
+
 #define configUSE_IDLE_HOOK			0
 #define configUSE_TICK_HOOK			0
 #define configCPU_CLOCK_HZ			( ( unsigned long ) systemcoreclock )	
 #define configTICK_RATE_HZ			( ( TickType_t ) 1000 )
 #define configMAX_PRIORITIES		( 5 )
 #define configMINIMAL_STACK_SIZE	( ( unsigned short ) 128 )
-#define configSUPPORT_DYNAMIC_ALLOCATION        1       
-#define configTOTAL_HEAP_SIZE		( ( size_t ) ( 20 * 1024 ) )
+
+
+/* 内存分配相关定义 */
+#define configSUPPORT_DYNAMIC_ALLOCATION        1       											 /* 1: 支持动态申请内存, 默认: 1 */
+#define configTOTAL_HEAP_SIZE		( ( size_t ) ( 20 * 1024 ) )									 /* FreeRTOS堆中可用的RAM总量, 单位: Byte, 无默认需定义 */
 #define configMAX_TASK_NAME_LEN		( 16 )
 #define configUSE_16_BIT_TICKS		0
 #define configIDLE_SHOULD_YIELD		1
@@ -130,6 +135,8 @@
 /* Set the following definitions to 1 to include the API function, or zero
 to exclude the API function. */
 
+
+/* 可选函数, 1: 使能 */
 #define INCLUDE_vTaskPrioritySet		1
 #define INCLUDE_uxTaskPriorityGet		1
 #define INCLUDE_vTaskDelete				1

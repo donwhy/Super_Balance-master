@@ -4,6 +4,7 @@
 ".\objects\at32f403a_407_int.o"
 ".\objects\system_at32f403a_407.o"
 ".\objects\include_port.o"
+".\objects\freertos_demo.o"
 ".\objects\startup_at32f403a_407.o"
 ".\objects\at32f403a_407_gpio.o"
 ".\objects\at32f403a_407_crm.o"

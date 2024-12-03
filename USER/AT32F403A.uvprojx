@@ -414,6 +414,11 @@
               <FileType>1</FileType>
               <FilePath>.\include_port.c</FilePath>
             </File>
+            <File>
+              <FileName>FreeRTOS_demo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\FreeRTOS_demo.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
